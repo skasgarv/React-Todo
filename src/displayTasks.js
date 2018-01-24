@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class DisplayTasks extends Component {
   render() {
     return (
-     <div>Displaying Tasks</div>
+     <div>{this.props.tasks.length}</div>
     );
   }
 };
